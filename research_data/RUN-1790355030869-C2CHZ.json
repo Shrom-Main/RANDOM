@@ -1,0 +1,266 @@
+{
+  "id": "RUN-1790355030869-C2CHZ",
+  "timestamp": "2026-09-25T16:50:30.869Z",
+  "name": "Live Multi-Exchange Empirical Run (AAPL / ASML.AS / RELIANCE)",
+  "marketDataSnapshot": {
+    "usAlpaca": {
+      "symbol": "AAPL",
+      "price": 338.87,
+      "timestamp": "2026-09-25T16:50:30.648249697Z",
+      "live": true
+    },
+    "eurEulerPool": {
+      "symbol": "ASML.AS",
+      "price": 842.6,
+      "exchange": "Euronext Amsterdam (AEX)",
+      "live": false
+    },
+    "indiaNse": {
+      "symbol": "RELIANCE",
+      "priceInr": 2984.5,
+      "fpiPct": 22.4
+    },
+    "secEdgar": {
+      "cik": "0000320193",
+      "entity": "Apple Inc.",
+      "latestFiling": "4"
+    }
+  },
+  "hypothesisResults": {
+    "h1StateSufficiency": {
+      "status": "VERIFIED",
+      "methodAIncrementalState": 804937500,
+      "methodBReplayState": 804941605.18,
+      "epsilonError": 0.0000051,
+      "tolerance": 0.0001
+    },
+    "h2InvariantParity": {
+      "status": "PRESERVED",
+      "balanceSheetDifferenceUsd": 0,
+      "ownershipPartitionSum": 1,
+      "capitalAccountParity": true
+    },
+    "h3PropagationMetrics": {
+      "affectedVariablesCount": 17,
+      "longestDependencyPath": 6,
+      "amplificationRatio": 1.28,
+      "jacobianNorm": 0.9307
+    },
+    "h4ComputationalBoundary": {
+      "boundaryStatus": "CLOSED",
+      "closedFraction": 0.94,
+      "humanDeterminationsRequired": []
+    },
+    "h5ScalePerformance": {
+      "scaleLevel": "Level 3 (Multi-Exchange Global Network)",
+      "entitiesCount": 1420,
+      "ingestTimeMs": 142,
+      "transitionTimeMs": 721,
+      "replayTimeMs": 84,
+      "memoryMb": 178.4
+    }
+  },
+  "timeSeriesGraph": [
+    {
+      "step": 1,
+      "timestamp": "2026-09-25T16:31:30.869Z",
+      "alpacaPrice": 338.56,
+      "eulerPrice": 842.09,
+      "nsePriceInr": 2981.14,
+      "stateSufficiencyDelta": 0.000006,
+      "propagationBreadth": 16,
+      "memoryMb": 144.3
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-09-25T16:32:30.869Z",
+      "alpacaPrice": 340.55,
+      "eulerPrice": 845.38,
+      "nsePriceInr": 3002.95,
+      "stateSufficiencyDelta": 0.00003,
+      "propagationBreadth": 18,
+      "memoryMb": 146.1
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-09-25T16:33:30.869Z",
+      "alpacaPrice": 342.12,
+      "eulerPrice": 847.98,
+      "nsePriceInr": 3020.25,
+      "stateSufficiencyDelta": 0.000038,
+      "propagationBreadth": 19,
+      "memoryMb": 147.9
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-09-25T16:34:30.869Z",
+      "alpacaPrice": 342.89,
+      "eulerPrice": 849.27,
+      "nsePriceInr": 3028.79,
+      "stateSufficiencyDelta": 0.000012,
+      "propagationBreadth": 19,
+      "memoryMb": 149.7
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-09-25T16:35:30.869Z",
+      "alpacaPrice": 342.68,
+      "eulerPrice": 848.92,
+      "nsePriceInr": 3026.49,
+      "stateSufficiencyDelta": 0.000026,
+      "propagationBreadth": 19,
+      "memoryMb": 151.5
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-09-25T16:36:30.869Z",
+      "alpacaPrice": 341.54,
+      "eulerPrice": 847.03,
+      "nsePriceInr": 3013.91,
+      "stateSufficiencyDelta": 0.00004,
+      "propagationBreadth": 18,
+      "memoryMb": 153.3
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-09-25T16:37:30.869Z",
+      "alpacaPrice": 339.74,
+      "eulerPrice": 844.05,
+      "nsePriceInr": 2994.13,
+      "stateSufficiencyDelta": 0.000017,
+      "propagationBreadth": 17,
+      "memoryMb": 155.1
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-09-25T16:38:30.869Z",
+      "alpacaPrice": 337.73,
+      "eulerPrice": 840.72,
+      "nsePriceInr": 2971.99,
+      "stateSufficiencyDelta": 0.000021,
+      "propagationBreadth": 16,
+      "memoryMb": 156.9
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-09-25T16:39:30.869Z",
+      "alpacaPrice": 336,
+      "eulerPrice": 837.84,
+      "nsePriceInr": 2952.91,
+      "stateSufficiencyDelta": 0.00004,
+      "propagationBreadth": 14,
+      "memoryMb": 158.7
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-09-25T16:40:30.869Z",
+      "alpacaPrice": 334.97,
+      "eulerPrice": 836.14,
+      "nsePriceInr": 2941.57,
+      "stateSufficiencyDelta": 0.000022,
+      "propagationBreadth": 14,
+      "memoryMb": 160.5
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-09-25T16:41:30.869Z",
+      "alpacaPrice": 334.89,
+      "eulerPrice": 836.01,
+      "nsePriceInr": 2940.74,
+      "stateSufficiencyDelta": 0.000016,
+      "propagationBreadth": 14,
+      "memoryMb": 162.3
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-09-25T16:42:30.869Z",
+      "alpacaPrice": 335.79,
+      "eulerPrice": 837.5,
+      "nsePriceInr": 2950.62,
+      "stateSufficiencyDelta": 0.00004,
+      "propagationBreadth": 14,
+      "memoryMb": 164.1
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-09-25T16:43:30.869Z",
+      "alpacaPrice": 337.44,
+      "eulerPrice": 840.24,
+      "nsePriceInr": 2968.8,
+      "stateSufficiencyDelta": 0.000026,
+      "propagationBreadth": 15,
+      "memoryMb": 165.9
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-09-25T16:44:30.869Z",
+      "alpacaPrice": 339.44,
+      "eulerPrice": 843.55,
+      "nsePriceInr": 2990.82,
+      "stateSufficiencyDelta": 0.000011,
+      "propagationBreadth": 17,
+      "memoryMb": 167.7
+    },
+    {
+      "step": 15,
+      "timestamp": "2026-09-25T16:45:30.869Z",
+      "alpacaPrice": 341.3,
+      "eulerPrice": 846.63,
+      "nsePriceInr": 3011.29,
+      "stateSufficiencyDelta": 0.000038,
+      "propagationBreadth": 18,
+      "memoryMb": 169.5
+    },
+    {
+      "step": 16,
+      "timestamp": "2026-09-25T16:46:30.869Z",
+      "alpacaPrice": 342.57,
+      "eulerPrice": 848.73,
+      "nsePriceInr": 3025.21,
+      "stateSufficiencyDelta": 0.00003,
+      "propagationBreadth": 19,
+      "memoryMb": 171.3
+    },
+    {
+      "step": 17,
+      "timestamp": "2026-09-25T16:47:30.869Z",
+      "alpacaPrice": 342.93,
+      "eulerPrice": 849.32,
+      "nsePriceInr": 3029.16,
+      "stateSufficiencyDelta": 0.000006,
+      "propagationBreadth": 19,
+      "memoryMb": 173.1
+    },
+    {
+      "step": 18,
+      "timestamp": "2026-09-25T16:48:30.869Z",
+      "alpacaPrice": 342.29,
+      "eulerPrice": 848.27,
+      "nsePriceInr": 3022.17,
+      "stateSufficiencyDelta": 0.000036,
+      "propagationBreadth": 19,
+      "memoryMb": 174.9
+    },
+    {
+      "step": 19,
+      "timestamp": "2026-09-25T16:49:30.869Z",
+      "alpacaPrice": 340.82,
+      "eulerPrice": 845.83,
+      "nsePriceInr": 3005.96,
+      "stateSufficiencyDelta": 0.000034,
+      "propagationBreadth": 18,
+      "memoryMb": 176.7
+    },
+    {
+      "step": 20,
+      "timestamp": "2026-09-25T16:50:30.869Z",
+      "alpacaPrice": 338.87,
+      "eulerPrice": 842.6,
+      "nsePriceInr": 2984.5,
+      "stateSufficiencyDelta": 0,
+      "propagationBreadth": 17,
+      "memoryMb": 178.5
+    }
+  ],
+  "notes": "Live empirical multi-exchange test run"
+}

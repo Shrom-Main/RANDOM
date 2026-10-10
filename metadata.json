@@ -1,0 +1,6 @@
+{
+  "name": "Global Temporal Investment Graph & Tax State Engine",
+  "description": "Global temporal investment graph, auditable tax state-transition system, scale stress testing, and recursive lineage analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

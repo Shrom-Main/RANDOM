@@ -1,0 +1,266 @@
+{
+  "id": "RUN-1790504158570-MSWTT",
+  "timestamp": "2026-09-27T10:15:58.570Z",
+  "name": "Live Multi-Exchange Empirical Run (NVDA / SAP.DE / TCS)",
+  "marketDataSnapshot": {
+    "usAlpaca": {
+      "symbol": "NVDA",
+      "price": 225.05,
+      "timestamp": "2026-09-25T20:59:49.048604722Z",
+      "live": true
+    },
+    "eurEulerPool": {
+      "symbol": "SAP.DE",
+      "price": 204.5,
+      "exchange": "Deutsche Börse XETRA",
+      "live": false
+    },
+    "indiaNse": {
+      "symbol": "TCS",
+      "priceInr": 4210.8,
+      "fpiPct": 12.6
+    },
+    "secEdgar": {
+      "cik": "0001045810",
+      "entity": "NVIDIA CORP",
+      "latestFiling": "4"
+    }
+  },
+  "hypothesisResults": {
+    "h1StateSufficiency": {
+      "status": "VERIFIED",
+      "methodAIncrementalState": 390462000,
+      "methodBReplayState": 390463835.17,
+      "epsilonError": 0.0000047,
+      "tolerance": 0.0001
+    },
+    "h2InvariantParity": {
+      "status": "PRESERVED",
+      "balanceSheetDifferenceUsd": 0,
+      "ownershipPartitionSum": 1,
+      "capitalAccountParity": true
+    },
+    "h3PropagationMetrics": {
+      "affectedVariablesCount": 17,
+      "longestDependencyPath": 6,
+      "amplificationRatio": 1.28,
+      "jacobianNorm": 0.8925
+    },
+    "h4ComputationalBoundary": {
+      "boundaryStatus": "CLOSED",
+      "closedFraction": 0.94,
+      "humanDeterminationsRequired": []
+    },
+    "h5ScalePerformance": {
+      "scaleLevel": "Level 3 (Multi-Exchange Global Network)",
+      "entitiesCount": 1420,
+      "ingestTimeMs": 142,
+      "transitionTimeMs": 953,
+      "replayTimeMs": 84,
+      "memoryMb": 178.4
+    }
+  },
+  "timeSeriesGraph": [
+    {
+      "step": 1,
+      "timestamp": "2026-09-27T09:56:58.569Z",
+      "alpacaPrice": 224.85,
+      "eulerPrice": 204.38,
+      "nsePriceInr": 4206.05,
+      "stateSufficiencyDelta": 0.000006,
+      "propagationBreadth": 16,
+      "memoryMb": 144.3
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-09-27T09:57:58.569Z",
+      "alpacaPrice": 226.16,
+      "eulerPrice": 205.17,
+      "nsePriceInr": 4236.83,
+      "stateSufficiencyDelta": 0.00003,
+      "propagationBreadth": 18,
+      "memoryMb": 146.1
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-09-27T09:58:58.569Z",
+      "alpacaPrice": 227.21,
+      "eulerPrice": 205.81,
+      "nsePriceInr": 4261.23,
+      "stateSufficiencyDelta": 0.000038,
+      "propagationBreadth": 19,
+      "memoryMb": 147.9
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-09-27T09:59:58.569Z",
+      "alpacaPrice": 227.72,
+      "eulerPrice": 206.12,
+      "nsePriceInr": 4273.29,
+      "stateSufficiencyDelta": 0.000012,
+      "propagationBreadth": 19,
+      "memoryMb": 149.7
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-09-27T10:00:58.569Z",
+      "alpacaPrice": 227.58,
+      "eulerPrice": 206.03,
+      "nsePriceInr": 4270.05,
+      "stateSufficiencyDelta": 0.000026,
+      "propagationBreadth": 19,
+      "memoryMb": 151.5
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-09-27T10:01:58.569Z",
+      "alpacaPrice": 226.82,
+      "eulerPrice": 205.57,
+      "nsePriceInr": 4252.3,
+      "stateSufficiencyDelta": 0.00004,
+      "propagationBreadth": 18,
+      "memoryMb": 153.3
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-09-27T10:02:58.569Z",
+      "alpacaPrice": 225.63,
+      "eulerPrice": 204.85,
+      "nsePriceInr": 4224.39,
+      "stateSufficiencyDelta": 0.000017,
+      "propagationBreadth": 17,
+      "memoryMb": 155.1
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-09-27T10:03:58.569Z",
+      "alpacaPrice": 224.3,
+      "eulerPrice": 204.04,
+      "nsePriceInr": 4193.15,
+      "stateSufficiencyDelta": 0.000021,
+      "propagationBreadth": 16,
+      "memoryMb": 156.9
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-09-27T10:04:58.569Z",
+      "alpacaPrice": 223.14,
+      "eulerPrice": 203.35,
+      "nsePriceInr": 4166.24,
+      "stateSufficiencyDelta": 0.00004,
+      "propagationBreadth": 14,
+      "memoryMb": 158.7
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-09-27T10:05:58.569Z",
+      "alpacaPrice": 222.46,
+      "eulerPrice": 202.93,
+      "nsePriceInr": 4150.23,
+      "stateSufficiencyDelta": 0.000022,
+      "propagationBreadth": 14,
+      "memoryMb": 160.5
+    },
+    {
+      "step": 11,
+      "timestamp": "2026-09-27T10:06:58.569Z",
+      "alpacaPrice": 222.41,
+      "eulerPrice": 202.9,
+      "nsePriceInr": 4149.06,
+      "stateSufficiencyDelta": 0.000016,
+      "propagationBreadth": 14,
+      "memoryMb": 162.3
+    },
+    {
+      "step": 12,
+      "timestamp": "2026-09-27T10:07:58.569Z",
+      "alpacaPrice": 223.01,
+      "eulerPrice": 203.26,
+      "nsePriceInr": 4163,
+      "stateSufficiencyDelta": 0.00004,
+      "propagationBreadth": 14,
+      "memoryMb": 164.1
+    },
+    {
+      "step": 13,
+      "timestamp": "2026-09-27T10:08:58.569Z",
+      "alpacaPrice": 224.1,
+      "eulerPrice": 203.93,
+      "nsePriceInr": 4188.64,
+      "stateSufficiencyDelta": 0.000026,
+      "propagationBreadth": 15,
+      "memoryMb": 165.9
+    },
+    {
+      "step": 14,
+      "timestamp": "2026-09-27T10:09:58.569Z",
+      "alpacaPrice": 225.43,
+      "eulerPrice": 204.73,
+      "nsePriceInr": 4219.71,
+      "stateSufficiencyDelta": 0.000011,
+      "propagationBreadth": 17,
+      "memoryMb": 167.7
+    },
+    {
+      "step": 15,
+      "timestamp": "2026-09-27T10:10:58.569Z",
+      "alpacaPrice": 226.67,
+      "eulerPrice": 205.48,
+      "nsePriceInr": 4248.6,
+      "stateSufficiencyDelta": 0.000038,
+      "propagationBreadth": 18,
+      "memoryMb": 169.5
+    },
+    {
+      "step": 16,
+      "timestamp": "2026-09-27T10:11:58.569Z",
+      "alpacaPrice": 227.51,
+      "eulerPrice": 205.99,
+      "nsePriceInr": 4268.23,
+      "stateSufficiencyDelta": 0.00003,
+      "propagationBreadth": 19,
+      "memoryMb": 171.3
+    },
+    {
+      "step": 17,
+      "timestamp": "2026-09-27T10:12:58.569Z",
+      "alpacaPrice": 227.74,
+      "eulerPrice": 206.13,
+      "nsePriceInr": 4273.8,
+      "stateSufficiencyDelta": 0.000006,
+      "propagationBreadth": 19,
+      "memoryMb": 173.1
+    },
+    {
+      "step": 18,
+      "timestamp": "2026-09-27T10:13:58.569Z",
+      "alpacaPrice": 227.32,
+      "eulerPrice": 205.88,
+      "nsePriceInr": 4263.95,
+      "stateSufficiencyDelta": 0.000036,
+      "propagationBreadth": 19,
+      "memoryMb": 174.9
+    },
+    {
+      "step": 19,
+      "timestamp": "2026-09-27T10:14:58.569Z",
+      "alpacaPrice": 226.34,
+      "eulerPrice": 205.28,
+      "nsePriceInr": 4241.08,
+      "stateSufficiencyDelta": 0.000034,
+      "propagationBreadth": 18,
+      "memoryMb": 176.7
+    },
+    {
+      "step": 20,
+      "timestamp": "2026-09-27T10:15:58.569Z",
+      "alpacaPrice": 225.05,
+      "eulerPrice": 204.5,
+      "nsePriceInr": 4210.8,
+      "stateSufficiencyDelta": 0,
+      "propagationBreadth": 17,
+      "memoryMb": 178.5
+    }
+  ],
+  "notes": "Automated verification of cross-border state sufficiency, invariant parity, and live data hydration"
+}
